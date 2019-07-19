@@ -66,7 +66,7 @@ plt.show()
 """#Defining our Image denoising autoencoder"""
 Input_img = Input(shape=(28, 28, 1))  
 
-
+#encoding architecture
 x1 = Conv2D(64, (3, 3), activation='relu', padding='same')(Input_img)
 x1 = MaxPool2D( (2, 2), padding='same')(x1)
 x2 = Conv2D(32, (3, 3), activation='relu', padding='same')(x1)
