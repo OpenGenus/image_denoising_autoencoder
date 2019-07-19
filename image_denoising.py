@@ -64,8 +64,6 @@ plt.tight_layout()
 plt.show()
 
 """#Defining our Image denoising autoencoder"""
-
-!pip install -q tensorflow==2.0.0-beta1
 Input_img = Input(shape=(28, 28, 1))  
 
 
